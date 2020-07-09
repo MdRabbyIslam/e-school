@@ -5,9 +5,323 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>e-school</title>
     <link rel="shortcut icon" href="images/ICON/Logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>My e-school assignment</h1>
+    <header class="header-bg">
+      <div class="container p-4" id="home">
+        <!--todo Navbar started -->
+
+        <nav class="navbar navbar-expand-lg navbar-light font-weight-bold">
+          <a class="navbar-brand" href="#"
+            ><img class="w-25" src="images/ICON/Logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link" href="#">Books </a>
+              <a class="nav-item nav-link ml-4" href="#">Courses</a>
+              <a class="nav-item nav-link ml-4" href="#">Other</a>
+              <a class="nav-item nav-link ml-4" href="#">Blog</a>
+              <a
+                class="btn btn-success signin-btn ml-4 border-radius-20"
+                href="#"
+                >Sign In</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- todo landing page section -->
+      <section class="landing-page">
+        <div class="container p-4">
+          <div class="landing">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <p>Are you ready to Learn?</p>
+                <h1>Learn With fun on any schedule</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Varius blandit facilisis quam netus.
+                </p>
+                <button class="btn btn-success border-radius-20">
+                  Get Started
+                </button>
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="images/Photos/Illustration.png"
+                  class="w-100"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- todo about section -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 my-4 ">
+            <div
+              class="p-3  about-same-bg d-flex flex-column align-items-center justify-content-center"
+            >
+              <img src="images/ICON/book.png" class="about-img-width" alt="" />
+              <h3 class="mt-4">1500+ Topic</h3>
+              <p>Learn Anything</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 my-4 ">
+            <div
+              class="p-3 about-diff-bg d-flex flex-column align-items-center justify-content-center"
+            >
+              <img
+                src="images/ICON/student.png"
+                class="about-img-width"
+                alt=""
+              />
+              <h3 class="mt-4">1500+ Topic</h3>
+              <p>Learn Anything</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 my-4">
+            <div
+              class="p-3 about-same-bg d-flex flex-column align-items-center justify-content-center"
+            >
+              <img src="images/ICON/book.png" class="about-img-width" alt="" />
+              <h3 class="mt-4">1500+ Topic</h3>
+              <p>Learn Anything</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 my-4 ">
+            <div
+              class="p-3 about-same-bg d-flex flex-column align-items-center justify-content-center"
+            >
+              <img src="images/ICON/book.png" class="about-img-width" alt="" />
+              <h3 class="mt-4">1500+ Topic</h3>
+              <p>Learn Anything</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo course section -->
+    <section class="course">
+      <div class="container">
+        <h1 class="heading">Online Courses</h1>
+        <div class="card-deck">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="images/Photos/Morder pyschology.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Modern Physiology</h5>
+                  <p class="card-text">
+                    Designation
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow ">
+                  <img
+                    class="card-img-top"
+                    src="images/Photos/Morder psyc.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Physiology</h5>
+                    <p class="card-text">
+                      Designation
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 mb-4 ">
+                <div class="card shadow">
+                  <img
+                    class="card-img-top"
+                    src="images/Photos/Morder pychons.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Physiology</h5>
+                    <p class="card-text">
+                      Designation
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- todo caurosel testimonial part -->
+
+    <section class="testimonial mb-5 ">
+      <h1 class="heading">Testimonial</h1>
+
+      <div class="container caurosel-bg py-5">
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner ">
+            <div class="carousel-item active">
+             <div class="row d-flex justify-content-center align-items-center">
+               <div class="col-md-3 col-sm-9">
+                <img class="d-block w-100" src="images/Photos/Man.png" alt="First slide">
+               </div>
+               <div class="col-md-7 col-sm-9 pt-3"><p><span class="comment-sign">"</span>There are many variations of passages of Lorem Ipsum available, but the
+
+                majority have suffered alteration in some form, by injected humour, 
+               
+               or randomised words which don't look even slightly believable<span class="comment-sign">"</span></p></div>
+             </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-3 col-sm-9">
+                 <img class="d-block w-100" src="images/Photos/Man.png" alt="First slide">
+                </div>
+                <div class="col-md-7 col-sm-9 pt-3"><p><span class="comment-sign">"</span> There are many variations of passages of Lorem Ipsum available, but the
+
+                  majority have suffered alteration in some form, by injected humour, 
+                 
+                 or randomised words which don't look even slightly believable<span class="comment-sign">"</span></p></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-3 col-sm-9">
+                 <img class="d-block w-100" src="images/Photos/Man.png" alt="First slide">
+                </div>
+                <div class="col-md-7 col-sm-9 pt-3"><p><span class="comment-sign">"</span>
+                  There are many variations of passages of Lorem Ipsum available, but the
+
+                  majority have suffered alteration in some form, by injected humour, 
+                 
+                 or randomised words which don't look even slightly believable<span class="comment-sign">"</span>
+                </p></div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <p>Millions of people of all ages and from around
+
+              the world are improving their lives with us</p>
+
+          </div>
+          <div class="col-8">
+            <div class="row">
+              <div class="col-4">
+                <div>
+                  <h5>Courses</h5>
+                  <a href="#">Graphic Design</a>
+                  <a href="#">Web design</a>
+                  <a href="#">Business</a>
+                  <a href="#">Marketing</a>
+                  <a href="#">Engineering</a>
+                </div>
+              </div>
+              <div class="col-4">
+                <div>
+                  <h5>Terms</h5>
+                  <a href="#">Graphic Design</a>
+                  <a href="#">Web design</a>
+                  <a href="#">Business</a>
+                  <a href="#">Marketing</a>
+                  <a href="#">Engineering</a>
+                </div>
+              </div>
+              <div class="col-4">
+                <div>
+                  <h5>Useful links</h5>
+                  <a href="#">Graphic Design</a>
+                  <a href="#">Web design</a>
+                  <a href="#">Business</a>
+                  <a href="#">Marketing</a>
+                  <a href="#">Engineering</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>&copy;copyright by rabby-web-dev</p>
+    </footer>
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

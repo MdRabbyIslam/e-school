@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+img {
+  width: 100%;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 60px;
+  margin-top: 80px;
+  color: rgb(58, 17, 97);
+}
+.border-radius-20 {
+  border-radius: 20px;
+}
+.header-bg {
+  background-color: rgba(197, 240, 197, 0.4);
+}
+.signin-btn {
+  width: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about {
+  margin: 60px 0;
+}
+.about-diff-bg {
+  background: white;
+  box-shadow: 2px 2px 30px rgb(172, 170, 170);
+  height: 300px;
+}
+.about-same-bg {
+  background-color: rgba(197, 240, 197, 0.2);
+  height: 300px;
+}
+
+.about-img-width {
+  width: 30%;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.card {
+  align-items: flex-start;
+  border: none;
+}
+.card img {
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.caurosel-bg {
+  background-color: rgba(197, 240, 197, 0.2);
+}
+.carousel-item .row p {
+  color: black;
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 16px;
+}
+.comment-sign {
+  color: orangered;
+  font-size: 30px;
+}
+
+footer {
+  background-color: gray;
+  padding: 60px 30px;
+  color: white;
+}
+
+footer .row .col-8 .col-4 div {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+footer .row .col-8 .col-4 div h5 {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+footer .row a {
+  text-decoration: none;
+  color: white;
+}
