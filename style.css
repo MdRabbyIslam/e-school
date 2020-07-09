@@ -106,3 +106,7 @@ footer .row a {
   text-decoration: none;
   color: white;
 }
+
+footer p {
+  margin-top: 20px;
+}
