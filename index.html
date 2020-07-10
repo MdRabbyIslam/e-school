@@ -15,12 +15,14 @@
   </head>
   <body>
     <header class="header-bg">
-      <div class="container p-4" id="home">
+      <div class="container p-4 " id="home">
+
+   
         <!--todo Navbar started -->
 
         <nav class="navbar navbar-expand-lg navbar-light font-weight-bold">
           <a class="navbar-brand" href="#"
-            ><img class="w-25" src="images/ICON/Logo.png" alt=""
+            ><img src="images/ICON/Logo.png" alt=""
           /></a>
           <button
             class="navbar-toggler"
@@ -35,10 +37,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link" href="#">Books </a>
-              <a class="nav-item nav-link ml-4" href="#">Courses</a>
-              <a class="nav-item nav-link ml-4" href="#">Other</a>
-              <a class="nav-item nav-link ml-4" href="#">Blog</a>
+              <a class="nav-item nav-link" href="#about">Books </a>
+              <a class="nav-item nav-link ml-4" href="#courses">Courses</a>
+              <a class="nav-item nav-link ml-4" href="#students">Students</a>
+              <a class="nav-item nav-link ml-4" href="#testimonial">Testimonial</a>
               <a
                 class="btn btn-success signin-btn ml-4 border-radius-20"
                 href="#"
@@ -79,8 +81,9 @@
     </header>
 
     <!-- todo about section -->
-    <section class="about">
-      <div class="container">
+    <section class="about" id="about">
+      <div class="clearfix"></div>
+      <div class="container mt-5">
         <div class="row">
           <div class="col-md-6 col-lg-3 my-4 ">
             <div
@@ -129,8 +132,10 @@
       </div>
     </section>
 
+      
     <!-- todo course section -->
-    <section class="course">
+    <section class="course" id="courses">
+      <div class="clearfix"></div>
       <div class="container">
         <h1 class="heading">Online Courses</h1>
         <div class="card-deck">
@@ -191,10 +196,67 @@
       </div>
     </section>
 
+    <!-- todo success students -->
+
+    <section class="students" id="students">
+      <div class="clearfix"></div>
+      <div class="container  ">
+        <h1 class="heading">Some Successful Students</h1>
+        <div class="row my-auto justify-content-center">
+          
+<div class="col-md-6 col-lg-3 col-sm-9">       
+   <div class="photoframe jus ">
+  <div class="photo">
+    <img src="images/Photos/student1.jpg" alt="">
+  </div>
+    <div class="discription">
+      <h3>Karina Islam</h3>
+      <p>Senior Web Designer</p>
+    </div>
+</div>
+</div>
+        <div class="col-md-6 col-lg-3 col-sm-9">
+          <div class="photoframe align-items-center">
+            <div class="photo">
+              <img src="images/Photos/student3.jpg" alt="">
+            </div>
+              <div class="discription">
+                <h3>Rabby Hossain</h3>
+                <p>Senior App Developer</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-sm-9">
+          <div class="photoframe align-items-center">
+            <div class="photo">
+              <img src="images/Photos/student2.jpg" alt="">
+            </div>
+              <div class="discription">
+                <h3>Keya Khatun</h3>
+                <p>Senior Web Designer</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-sm-9">
+          <div class="photoframe align-items-center">
+            <div class="photo">
+              <img src="images/Photos/student4.jpg" alt="">
+            </div>
+              <div class="discription">
+                <h3>Shohel Khan</h3>
+                <p>Senior Marketing officer</p>
+              </div>
+          </div>
+        </div>
+      
+        </div>
+      </div>
+    </section>
+
 
     <!-- todo caurosel testimonial part -->
 
-    <section class="testimonial mb-5 ">
+    <section class="testimonial mb-5 " id="testimonial">
       <h1 class="heading">Testimonial</h1>
 
       <div class="container caurosel-bg py-5">
@@ -221,7 +283,7 @@
             <div class="carousel-item">
               <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-md-3 col-sm-9">
-                 <img class="d-block w-100" src="images/Photos/Man.png" alt="First slide">
+                 <img class="d-block w-100" src="images/Photos/student4.jpg" alt="First slide">
                 </div>
                 <div class="col-md-7 col-sm-9 pt-3"><p><span class="comment-sign">"</span> There are many variations of passages of Lorem Ipsum available, but the
 
@@ -233,7 +295,7 @@
             <div class="carousel-item">
               <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-md-3 col-sm-9">
-                 <img class="d-block w-100" src="images/Photos/Man.png" alt="First slide">
+                 <img class="d-block w-100" src="images/Photos/student2.jpg" alt="First slide">
                 </div>
                 <div class="col-md-7 col-sm-9 pt-3"><p><span class="comment-sign">"</span>
                   There are many variations of passages of Lorem Ipsum available, but the

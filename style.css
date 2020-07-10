@@ -1,7 +1,18 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
+
+nav img {
+  height: 60px;
+  width: 140px;
+}
+
+.clearfix {
+  height: 30px;
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -58,6 +69,48 @@ p {
   width: 30%;
 }
 
+/* todo students section */
+.photoframe {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.photoframe .photo img {
+  width: 100%;
+  height: 250px;
+  transition: all 0.5s ease-in;
+}
+
+.photoframe:hover img {
+  transform: scale(1.2);
+}
+.photoframe:hover .discription {
+  visibility: visible;
+}
+.discription {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.8);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 250px;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  transition: visibility 0.5s ease-in;
+}
+
+.discription h3 {
+  color: blue;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px white;
+}
+
 .card-title {
   font-size: 25px;
 }
@@ -72,9 +125,27 @@ p {
   margin: 20px auto;
 }
 
+/* todo caurosel */
+
 .caurosel-bg {
   background-color: rgba(197, 240, 197, 0.2);
 }
+
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+
+.carousel-item img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
 .carousel-item .row p {
   color: black;
   font-weight: 500;
